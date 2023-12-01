@@ -16,4 +16,20 @@ INSERT INTO bookshop.book (book_id, title, author, price, quantity)
 INSERT INTO bookshop.book (book_id, title, author, price, quantity)
 	VALUES ('ISBN108', 'Harry Potter and the Goblet of Fire', 'J.K. Rowling', 12.99, 1);
 
+INSERT INTO bookshop.book (book_id, title, author, price)
+	VALUES ('ISBN109', 'Harry Potter and the Order of the Phoenix', 'J.K. Rowling', 7.99);
+
+INSERT INTO bookshop.book (book_id, title, author, quantity)
+	VALUES ('ISBN110', 'Harry Potter and the Half Blood Prince', 'J.K. Rowling', 1);
+
+-- accidentally gave ISBN110 the wrong title, so I deleted it, as below
+-- DELETE FROM bookshop.book WHERE book_id = 'ISBN110';
+-- then added it again with the correct title this time
+
+INSERT INTO bookshop.book (book_id, title, author, price, quantity)
+	VALUES ('ISBN113', 'A Storm of Swords', 'George R. R. Martin', 0.99, 0);
+
+INSERT INTO bookshop.book (book_id, title, author, price, quantity)
+	VALUES ('ISBN114', 'A Feast for Crows', 'George R. R. Martin', 0.99, 1);
+
 select * from book;
