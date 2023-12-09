@@ -1,6 +1,6 @@
 # Python Flask RESTful tutorial
 
-Following along with the courses at [Leidos Percipio: Track 4: Building Restful Web Services with Python](https://leidos.percipio.com/track/9ca289af-b509-4ba0-af0e-74468f3254ef)
+Following along with the courses at [Percipio: Track 4: Building Restful Web Services with Python](https://leidos.percipio.com/track/9ca289af-b509-4ba0-af0e-74468f3254ef)
 
 This git repo picks up at [Flask-RESTful: Integrating the API Server with a MySQL Database](https://leidos.percipio.com/courses/ff307df7-22fc-4ef5-9d4b-f0349e09bff3)
 
